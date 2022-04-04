@@ -123,7 +123,7 @@ export default function Register() {
             sx={{ width: '100%' }}
           >
             { firstWarning 
-              ? 'CPF/CNPJ deve conter somente números.' 
+              ? 'CPF/CNPJ deve conter somente números!' 
               : secondWarning 
                 ? 'CPF/CNPJ inválido.' 
                 : thirdWarning
